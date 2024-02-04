@@ -78,7 +78,3 @@
 | `void insert_many_back(Args&&... args)`          | appends new elements to the end of the container  | List, Vector, Queue |
 | `void insert_many_front(Args&&... args)`          | appends new elements to the top of the container  | List, Stack |
 | `vector<std::pair<iterator,bool>> insert_many(Args&&... args)`          | inserts new elements into the container  | Map, Set |
-
-
-
-Обратите внимание, что в качестве аргументов передаются уже созданные элементы соответствующего контейнера, которые необходимо вставить в этот контейнер.
